@@ -1,0 +1,224 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jehanpier Estrada | Desarrollador Web</title>
+    <link rel="shortcut icon" href="img/Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/Jehanpier-Hoja-De-Vida.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+    <!-- Cursor Personalizado -->
+    <div class="cursor"></div>
+
+
+
+
+
+
+    <!-- Header con Foto y Nombre -->
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="img/Jehanpier.png" alt="Jehanpier Estrada" class="profile-img">
+                <h1 class="cursive">Jehanpier Estrada Cabarcas</h1>
+                <p class="subtitle">Desarrollador Web Full Stack</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#education">Educación</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <!-- Sección Sobre Mí -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre <span class="cursive">Mí</span></h2>
+            <div class="about-content">
+                <p>¡Hola! Soy Jehanpier Estrada, un apasionado desarrollador web con experiencia en creación de sitios modernos y funcionales. Me especializo en frontend con animaciones creativas y diseño responsivo.</p>
+                <div class="personal-info">
+                    <div>
+                        <p><span>Edad:</span> 20 años</p>
+                        <p><span>Ubicación:</span> Colombia - Cartagena</p>
+                    </div>
+                    <div>
+                        <p><span>Email:</span> jampierdev@gmail.com</p>
+                        <p><span>Teléfono:</span> +57 318 3866 119</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Sección Experiencia -->
+    <section id="experience" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Experiencia <span class="cursive">Laboral</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Desarrollador Frontend</h3>
+                    <p class="date">2021 - Presente</p>
+                    <p>Empresa TechCo - Bogotá, Colombia</p>
+                    <ul>
+                        <li>Desarrollo de interfaces con HTML, CSS y JavaScript.</li>
+                        <li>Implementación de animaciones con GSAP.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>Diseñador UI/UX</h3>
+                    <p class="date">2019 - 2021</p>
+                    <p>Agencia Creativa - Medellín, Colombia</p>
+                    <ul>
+                        <li>Diseño de wireframes y prototipos en Figma.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Sección Educación -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Educación</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Ingeniería de Software</h3>
+                    <p class="date">2015 - 2020</p>
+                    <p>Universidad Nacional de Colombia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Sección Habilidades -->
+    <section id="skills" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Mis <span class="cursive">Habilidades</span></h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <div class="skill-name">HTML/CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">React</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <form action="https://formspree.io/f/xwpogvkq" method="POST" class="contact-form" id="contactForm">
+                <input type="text" name="nombres y apellidos" placeholder="Nombres y Apellidos" required>
+                <input type="number" name="telefono" placeholder="Número de Teléfono" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="mensaje" placeholder="Mensaje o Asunto" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Jehanpier Estrada. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+
+
+    <!-- Modales -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal">
+            <div class="spinner"></div>
+            <p class="modal-text">Enviando tu mensaje...</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="modal-overlay" id="success-modal">
+        <div class="modal">
+            <i class="fas fa-check-circle success-icon"></i>
+            <p class="modal-text">¡Mensaje enviado con éxito!</p>
+            <button class="modal-close" onclick="closeSuccessModal()">Cerrar</button>
+        </div>
+    </div>
+
+
+
+    
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="js/Jehanpier-Hoja-De-Vida.js"></script>
+</body>
+</html>
